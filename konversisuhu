@@ -1,0 +1,14 @@
+#include <stdio.h>
+main()
+{
+float suhu, hasil;
+int jenis;
+char back;
+printf("\tProgram untuk mengkonversikan suhu Celcius ke Farenheit dan Reamur\n\n");
+printf("Masukkan besar suhu : ");
+    scanf("%f", &suhu);
+    hasil=(suhu*1.8)+32;
+    printf("suhu dalam Farenheit : %.2f Farenheit\n", hasil);
+    hasil=suhu*0.8;
+    printf("suhu dalam Rheamur : %.2f Rheamur\n", hasil);
+}
